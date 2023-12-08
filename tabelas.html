@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Trabalhando com Tabelas</title>
+</head>
+<body>
+    <h1>Trabalhando com Tabelas</h1>
+    <p>No HTML os dados tabulares são aquelas que podem ser representadas visualmente em forma de tabelas.</p>
+    
+    <P>A elaboração de uma tabela consiste em uma cobinação de linhas e colunas, resultando em uma forma objetiva
+        e <br> ordenada de expor as informaçõe.
+    </P>
+    <br>
+    <h3>tabela Simples</h2>
+        <!--o atributo "border" no html5 não está mais sendo utilizado, pois essa configuração é realizada dentro do css-->
+        <table border="1">
+            <tr>
+                <td>Violão</td>
+                <td>Guitarra</td>
+
+            </tr>
+            <tr>
+                <td>Violino</td>
+                <td>Piano</td>
+            </tr>
+
+            
+        </table>
+
+    <h2>Tabela com células de título</h2>
+    <table border="1">
+        <tr>
+            <th>Instrumentos de corda</th>
+            <th>Instrumentos de sopro</th>
+        </tr>
+        <tr>
+            <td>Violino</td>
+            <td>Flauta</td>
+        </tr>
+        <tr>
+            <td>Piano</td>
+            <td>Corneta</td>
+        </tr>
+    </table>
+    
+    <h2>cabeçalhos na vestical</h2>
+    <table border="1">
+        <tr>
+            <th>Livros</th>
+            <td>Arte moderna</td>
+            <td>Progamação</td>
+        </tr>
+        <tr>
+            <th>Quantidade</th>
+            <td>500exemplares</td>
+            <td>600 exemplares</td>
+        </tr>
+    </table>
+    
+    <h2>cabeçalho, corpo e rodpé da tabela</h2>
+
+    <p>Estes elementos criam seções dentro da tabela que podem receber uma formação diferente, útil para a formação de <br> tabelas com muitos dados</p>
+    
+    <table border="1">
+        <caption>Tabela thead / tfoot / tbody</caption>
+        <tread>
+            <tr>
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+                <th>Coluna 3</th>
+            </tr>
+        </tread>
+        <tfoot>
+            <tr>
+                <td>Resultado 1</td>
+                <td>Resultado 2</td>
+                <td>Resultado 3</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td rowspan="2">Comteúdo a</td>
+                <td>Comteúdo b</td>
+                <td>Comteúdo c</td>
+            </tr>
+            <tr>
+                <td>Comteúdo d</td>
+                <td>Comteúdo e</td>
+                <!--Adicionando o "rowspan" tem que elimino a coluna-->
+            </tr>
+        </tbody>
+
+    </table>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14633.056870219012!2d-46.699522699999996!3d-23.5229975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1701991574940!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    
+</body>
+</html>
